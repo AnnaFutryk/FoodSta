@@ -3,3 +3,18 @@ body {
     font-size: 16px;
     color: #2C2C2C;
 }
+
+/* Base style */
+:root {
+    /* Font */
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Kalam', cursive;
+    --accent-font: 'Inter', sans-serif;
+/* Text color */
+--primary-black-txt-color: #2C2C2C;
+--dark-green-txt-color: #7EB101;
+--accent-button-green-txt-color: #BBF330;
+/* Background color */
+--button-green-bcg-color: #BBF330
+/* Others */
+}
