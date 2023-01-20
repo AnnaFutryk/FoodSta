@@ -1,3 +1,50 @@
+/* reset */
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+/* /reset */
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -10,11 +57,15 @@ body {
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Kalam', cursive;
     --accent-font: 'Inter', sans-serif;
-/* Text color */
---primary-black-txt-color: #2C2C2C;
---dark-green-txt-color: #7EB101;
---accent-button-green-txt-color: #BBF330;
-/* Background color */
---button-green-bcg-color: #BBF330
-/* Others */
+    /* Text color */
+    --primary-black-txt-color: #2C2C2C;
+    --dark-green-txt-color: #7EB101;
+    --accent-button-green-txt-color: #BBF330;
+    /* Background color */
+    --button-green-bcg-color: #BBF330;
+    --white-bcg-color: #FEFEFE;
+    --yellow-main-bcg-color: #FFE550;
+    --white: #FFFFFF;
+    --dark-green-bcg-color: #7EB101;
+    /* Others */
 }
