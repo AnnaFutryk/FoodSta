@@ -5,107 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Modern normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <a href=""
-        ><img src="./images/logo.png" alt="Company logo" width="66" height="52"
+    <header class="page-header">
+      <a class="logo-link" href=""
+        ><img
+          class="logo-img"
+          src="./images/logo.png"
+          alt="Company logo"
+          width="66"
+          height="52"
       /></a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
+      <nav class="page-nav">
+        <ul class="menu">
+          <li class="menu-item"><a class="menu-link" href="">Home</a></li>
+          <li class="menu-item"><a class="menu-link" href="">About</a></li>
+          <li class="menu-item"><a class="menu-link" href="">Service</a></li>
+          <li class="menu-item"><a class="menu-link" href="">Menu</a></li>
+          <li class="menu-item"><a class="menu-link" href="">Contact</a></li>
         </ul>
       </nav>
-      <button type="button">Order Now</button>
+      <button class="primary-btn" type="button">Order Now</button>
     </header>
   </body>
 </html>
 
 <!-- Hero -->
 <main>
-  <section>
-    <h1>Enjoy Your Favorite Food From Anywhere</h1>
-    <p>
+  <section class="hero-section">
+    <h1 class="main-title">Enjoy Your Favorite Food From Anywhere</h1>
+    <p class="section-description">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
       varius enim in eros elementum tristique. Duis cursus, mi quis viverra
       ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
     </p>
-    <button type="button">Order Now</button>
-    <img src="./images/food.png" alt="food" width="528" height="528" />
+    <button class="primary-btn" type="button">Order Now</button>
+    <img
+      class="hero-img"
+      src="./images/food.png"
+      alt="food"
+      width="528"
+      height="528"
+    />
   </section>
 
   <!-- Offering -->
-  <section>
-    <h2>What’s Special About Our Offerings</h2>
-    <img src="./images/aple.png" alt="apple" width="396" height="502" />
-    <p>
+  <section class="offering-section">
+    <h2 class="title">What's Special About Our Offerings</h2>
+    <img
+      class="offering-img"
+      src="./images/aple.png"
+      alt="apple"
+      width="396"
+      height="502"
+    />
+    <p class="section-description">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
       varius enim in eros elementum tristique. Duis cursus, mi quis viverra
       ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
     </p>
-    <ul>
-      <li>
-        <h3>Fasest Delivery</h3>
-        <p>
+    <ul class="offering-list">
+      <li class="offering-item">
+        <h3 class="subtitle">Fasest Delivery</h3>
+        <p class="section-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros.
         </p>
       </li>
-      <li>
-        <h3>Easy To Order</h3>
-        <p>
+      <li class="offering-item">
+        <h3 class="subtitle">Easy To Order</h3>
+        <p class="section-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros.
         </p>
       </li>
     </ul>
-    <button type="button">Order Now</button>
+    <button class="secondary-btn" type="button">Order Now</button>
   </section>
 
   <!-- Favorites -->
-  <secttion>
-    <h2>Some of Our Favorites</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <ul>
-      <li>
+  <secttion class="favorites-section">
+    <h2 class="title">Some of Our Favorites</h2>
+    <p class="section-description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <ul class="favorities-list">
+      <li class="favority-item">
         <img
+          class="favority-img"
           src="./images/gamburger.png"
           alt="gamburger"
           width="315"
           height="315"
         />
       </li>
-      <li>
-        <img src="./images/pasta.png" alt="pasta" width="315" height="315" />
-      </li>
-      <li>
-        <img src="./images/pizza.png" alt="pizza" width="315" height="315" />
-      </li>
-      <li>
+      <li class="favority-item">
         <img
+          class="favority-img"
+          src="./images/pasta.png"
+          alt="pasta"
+          width="315"
+          height="315"
+        />
+      </li>
+      <li class="favority-item">
+        <img
+          class="favority-img"
+          src="./images/pizza.png"
+          alt="pizza"
+          width="315"
+          height="315"
+        />
+      </li>
+      <li class="favority-item">
+        <img
+          class="favority-img"
           src="./images/chicken.png"
           alt="chicken"
           width="315"
           height="315"
         />
       </li>
-      <li>
-        <img src="./images/salat.png" alt="salat" width="315" height="315" />
-      </li>
-      <li>
+      <li class="favority-item">
         <img
+          class="favority-img"
+          src="./images/salat.png"
+          alt="salat"
+          width="315"
+          height="315"
+        />
+      </li>
+      <li class="favority-item">
+        <img
+          class="favority-img"
           src="./images/borshch.png"
           width="315"
           height="315"
@@ -116,100 +163,116 @@
   </secttion>
 
   <!-- Customer Say -->
-  <section>
-    <h2>What our Customers Say</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <ul>
-      <li>
+  <section class="customer-say-section">
+    <h2 class="title">What our Customers Say</h2>
+    <p class="section-description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+    <ul class="say-list">
+      <li class="say-item">
         <img
+          class="level-img"
           src="./images/stars.svg"
           alt="five stars"
           width="101"
           height="16"
         />
-        <p>
-          “The Best app I have used to order food in a while, so many options to
-          choose from too, I would recommend to a freind, No questions asked”
+        <p class="say-description">
+          "The Best app I have used to order food in a while, so many options to
+          choose from too, I would recommend to a freind, No questions asked"
         </p>
         <img
+          class="avatar-img"
           src="./images/man-avatar.png"
           alt="avatar"
           width="48"
           height="48"
         />
-        <h3>Sumith Shah</h3>
-        <p>Some Dude</p>
+        <h3 class="subtitle">Sumith Shah</h3>
+        <p class="section-description">Some Dude</p>
       </li>
-      <li>
+      <li class="say-item">
         <img
+          class="level-img"
           src="./images/stars.svg"
           alt="five stars"
           width="101"
           height="16"
         />
-        <p>
-          “The ease with which I can just go in and order what i want was
+        <p class="say-description">
+          "The ease with which I can just go in and order what i want was
           amazing, It has been a very pleasant experience ordering from this
-          app”
+          app"
         </p>
         <img
+          class="avatar-img"
           src="./images/woman-avatar.png"
           alt="avatar"
           width="48"
           height="48"
         />
-        <h3>Sumith Shah</h3>
-        <p>Some Dude</p>
+        <h3 class="subtitle">Sumith Shah</h3>
+        <p class="section-description">Some Dude</p>
       </li>
     </ul>
   </section>
 
   <!-- Subscribe -->
-  <section>
-    <h2>Subscribe To Get Special Offers</h2>
-    <p>
+  <section class="subscribe-section">
+    <h2 class="title">Subscribe To Get Special Offers</h2>
+    <p class="section-description">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
       varius enim in eros elementum tristique.
     </p>
-    <button type="button">Subscribe</button>
-    <img src="./images/banan.png" alt="banana" width="608" height="266" />
+    <button class="primary-btn" type="button">Subscribe</button>
+    <img
+      class="subscribe-img"
+      src="./images/banan.png"
+      alt="banana"
+      width="608"
+      height="266"
+    />
   </section>
 </main>
 
 <!-- Footer -->
 <div>
-  <a href=""
-    ><img src="./images/logo.png" alt="Company logo" width="66" height="52"
+  <a class="logo-link" href=""
+    ><img
+      class="logo-img"
+      src="./images/logo.png"
+      alt="Company logo"
+      width="66"
+      height="52"
   /></a>
-  <nav>
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Service</a></li>
-      <li><a href="">Menu</a></li>
-      <li><a href="">Contact</a></li>
-    </ul>
-  </nav>
-  <section>
-    <h2>Subscribe</h2>
-    <button type="button">Subscribe</button>
-    <a href=""
-      >By subscribing you agree to with our <span>Privacy Policy</span></a
+    <nav class="page-nav">
+      <ul class="menu">
+        <li class="menu-item"><a class="menu-link" href="">Home</a></li>
+        <li class="menu-item"><a class="menu-link" href="">About</a></li>
+        <li class="menu-item"><a class="menu-link" href="">Service</a></li>
+        <li class="menu-item"><a class="menu-link" href="">Menu</a></li>
+        <li class="menu-item"><a class="menu-link" href="">Contact</a></li>
+      </ul>
+  <section class="subscribe-footer-section">
+    <h2 class="subtitle">Subscribe</h2>
+    <button class="secondary-btn" type="button">Subscribe</button>
+    <a class="link-description" href=""
+      >By subscribing you agree to with our <span class="link-footer-green">Privacy Policy</span></a
     >
   </section>
 </div>
 <div>
-  <ul>
-    <li>
-      <a href="">Privacy Policy</a>
+  <ul link-list>
+    <li class="link-item">
+      <a class='link-doc' href="">Privacy Policy</a>
     </li>
-    <li>
-      <a href="">Terms of Service</a>
+    <li class="link-item">
+      <a class='link-doc' href="">Terms of Service</a>
     </li>
-    <li>
-      <a href="">Cookies Settings</a>
+    <li class="link-item">
+      <a class='link-doc' href="">Cookies Settings</a>
     </li>
   </ul>
 
-  <p>2022 FoodSta. All right reserved.</p>
+  <p class="link-description">2022 FoodSta. All right reserved.</p>
 </div>
