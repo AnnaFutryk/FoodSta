@@ -59,9 +59,11 @@ img {
     --button-green-bcg-color: #BBF330;
     --white-bcg-color: #FEFEFE;
     --yellow-main-bcg-color: #FFE550;
+    --white-bcg-color: #F5F5F5;
     --white: #FFFFFF;
     --dark-green-bcg-color: #7EB101;
     /* Others */
+    --radius: 30px;
 }
 
 body {
@@ -70,13 +72,21 @@ body {
     color: var(--primary-black-txt-color);
 }
 
+.yellow-bcg-section {
+    background-color: var(--yellow-main-bcg-color);
+}
+
+.light-bcg-section {
+    background-color: var(--white-bcg-color);
+}
+
 /* ============Components============= */
 .title{
    margin-bottom: 20px; 
 
    font-weight: 700;
    font-size: 42px;
-   line-height: calc(49px / 42px);
+   line-height: calc(49 / 42);
 }
 
 .subtitle {
@@ -84,25 +94,113 @@ body {
 
     font-weight: 700;
     font-size: 18px;
-    line-height: calc(25px / 18px);
+    line-height: calc(25 / 18);
 }
 
 .section-description {
     margin-bottom: 40px;
 
-    line-height: calc(24px / 16px);
+    line-height: calc(24 / 16);
 }
 
+.accent-section-description {
+    margin-bottom: 32px;
+
+    font-size: 14px;
+    line-height: calc(21 / 14);
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    border-radius: var(--radius);
+    padding: 6px 18px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: calc(20 / 13); 
+}
+
+.green-btn {
+    border: none;
+    background-color: var(--button-green-bcg-color);}
+
+.light-btn {
+    background-color: var(--white);
+    border: 2px solid var(--dark-green-bcg-color);
+}
 /* ============/Components============= */
 
 /* ========Header=============== */
+.page-header {
+    background-color: var(--white);
+}
+.menu {
+    display: flex;
+    gap: 28px;
+}
+
 .menu-link {
     display: block;
     padding-top: 28px;
     padding-bottom: 28px;
 
     font-size: 14px;
-    line-height: calc(16px / 14px);
+    line-height: calc(16 / 14);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-button-green-txt-color);
 }
 
 /* ========Header=============== */
+
+/* =========Hero=============== */
+.main-title {
+    margin-bottom: 28px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: calc(58 / 48);
+}
+/* =========/Hero=============== */
+
+/* ============Customer Say========== */
+.say-item {
+    background-color: var(--white-bcg-color);
+}
+
+.coment {
+    margin-bottom: 40px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+}
+
+.accent-subtitle {
+    margin-bottom: 2px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(21 / 14);
+}
+/* ============/Customer Say========== */
+
+/* =========Footer========= */
+.link-description {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+}
+
+.link-footer-green {
+    color: var(--dark-green-txt-color);
+}
+
+.link-doc {
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    color: var(--dark-green-txt-color);
+    text-decoration: underline;
+}
+/* =========/Footer========= */
