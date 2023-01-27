@@ -72,6 +72,19 @@ body {
     color: var(--primary-black-txt-color);
 }
 
+
+.container {
+    width: 1248px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    margin-left: auto;
+    margin-right: auto;
+
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
 .yellow-bcg-section {
     background-color: var(--yellow-main-bcg-color);
 }
@@ -134,6 +147,15 @@ body {
 /* ========Header=============== */
 .page-header {
     background-color: var(--white);
+}
+.container-header {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.page-block {
+    display: flex;
+    gap: 30px;
 }
 .menu {
     display: flex;
