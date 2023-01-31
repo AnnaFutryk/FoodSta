@@ -75,8 +75,8 @@ body {
 
 .container {
     width: 1248px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
 
@@ -126,12 +126,14 @@ body {
 .btn {
     display: inline-block;
     min-width: 98px;
-    border-radius: var(--radius);
+    height: 32px;
+
     padding: 6px 18px;
 
     font-weight: 500;
     font-size: 13px;
     line-height: calc(20 / 13); 
+    border-radius: var(--radius);
 }
 
 .green-btn {
@@ -141,6 +143,7 @@ body {
 .light-btn {
     background-color: var(--white);
     border: 2px solid var(--dark-green-bcg-color);
+    min-height: 40px;
 }
 /* ============/Components============= */
 
@@ -151,10 +154,12 @@ body {
 .container-header {
     display: flex; 
     justify-content: space-between;
+    align-items: center;
 }
 
 .page-block {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 .menu {
@@ -178,12 +183,32 @@ body {
 /* ========Header=============== */
 
 /* =========Hero=============== */
+.hero-section {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
 .main-title {
     margin-bottom: 28px;
 
     font-weight: 700;
     font-size: 48px;
     line-height: calc(58 / 48);
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-part-wrapper{
+    width: 502px;
+}
+
+.hero-img {
+    border: 26px solid var(--yellow-main-bcg-color);
+    border-radius: 50%;
 }
 /* =========/Hero=============== */
 
@@ -207,8 +232,63 @@ body {
     font-size: 14px;
     line-height: calc(21 / 14);
 }
+
+.customer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 100px;
+}
+
+.customer-part-wrapper {
+    width: 573px; 
+}
+
+.offering-list {
+    display: flex;
+    gap: 67px;
+}
+
+
 /* ============/Customer Say========== */
 
+/* ============Favorites============== */
+.favorities-part-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 656px;
+}
+
+.favorities-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.favorities-list {
+    display: flex;
+    flex-wrap: wrap;
+   
+   gap: 32px;
+}
+
+.favority-item {
+    flex-basis: calc((100% - (32 * 2)) / 3);
+}
+
+.favority-img {
+    width: 384px;
+    padding: 20px;
+    background-color: var(--white-bcg-color);
+    border-radius: 197.5px;
+    border: 16px solid var(--yellow-main-bcg-color);
+}
+
+/* ============/Favorites============== */
 /* =========Footer========= */
 .link-description {
     font-size: 12px;
