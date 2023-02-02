@@ -126,7 +126,7 @@ body {
 .btn {
     display: inline-block;
     min-width: 98px;
-    height: 32px;
+    min-height: 32px;
 
     padding: 6px 18px;
 
@@ -150,6 +150,7 @@ body {
 /* ========Header=============== */
 .page-header {
     background-color: var(--white);
+    box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);;
 }
 .container-header {
     display: flex; 
@@ -212,10 +213,7 @@ body {
 }
 /* =========/Hero=============== */
 
-/* ============Customer Say========== */
-.say-item {
-    background-color: var(--white-bcg-color);
-}
+/* ============Offering========== */
 
 .coment {
     margin-bottom: 40px;
@@ -233,7 +231,7 @@ body {
     line-height: calc(21 / 14);
 }
 
-.customer-wrapper {
+.offering-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -241,7 +239,7 @@ body {
     padding-bottom: 100px;
 }
 
-.customer-part-wrapper {
+.offering-part-wrapper {
     width: 573px; 
 }
 
@@ -251,21 +249,13 @@ body {
 }
 
 
-/* ============/Customer Say========== */
+/* ============/Offering========== */
 
 /* ============Favorites============== */
-.favorities-part-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    width: 656px;
-}
-
 .favorities-section {
     padding-top: 100px;
     padding-bottom: 100px;
+    text-align: center;
 
 }
 
@@ -289,6 +279,32 @@ body {
 }
 
 /* ============/Favorites============== */
+
+/* ============ Customer Say==========*/
+.customer-say-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.say-list {
+    display: flex;
+    gap: 139px;
+    justify-content: left;
+}
+.say-item {
+    width: 501px;
+    background-color: var(--white-bcg-color);
+    border-radius: 0px 30px 30px 30px;
+}
+
+.say {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+
+/* ============ Customer Say==========*/
+
 /* =========Footer========= */
 .link-description {
     font-size: 12px;
